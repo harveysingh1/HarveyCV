@@ -58,6 +58,14 @@
             </p>
         </div>
     </div>
+    
+    <div class="container" id="content">
+        <h1>About Harvir</h1>
+        <p>I am a recent graduate in <a href="https://www.brunel.ac.uk/study/undergraduate/computer-science-bsc" target="_blank">Computer Science</a> from <a href="https://www.brunel.ac.uk/" target="_blank">Brunel University London</a> and am now working as a Software Quality Assurance Engineer for <a href="https://www.veritas.com/" target="_blank">Veritas</a>.</p>
+        <p>I achieved a Second Class (Upper Division) BSc with Honours in my degree, with good marks throughout the four year course. The course itself included a one-year work placement at Veritas as a Performance Engineering Intern.</p>
+        <p>I had a keen interest in computers and (specifically) programming from a young age. This has enabled me to gain a wide range of skills in both Web and Software development. My skills in the industry are broad but include <a href="https://www.w3.org/" target="_blank">W3C</a> standard compliant HTML and CSS, JavaScript, with backend development in PHP/ASP.NET, and MySQL.</p>
+
+    </div>
 
     <div id="footer">
         <div class="container">
