@@ -22,7 +22,9 @@
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
 
-            <a href="#" class="navbar-brand">HS</a>
+            <a href="Default.aspx" class="navbar-brand">
+                <img src="Images/Hs-logo.png" width="38" height="37" />
+            </a>
 
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                 <span class="icon-bar"></span>
@@ -66,7 +68,7 @@
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
 
-            <a href="#" class="sm linkedin" title="Find Harvey on LinkedIn" target="_blank">
+            <a href="https://www.linkedin.com/in/harvirjaswal/" class="sm linkedin" title="Find Harvey on LinkedIn" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
 
