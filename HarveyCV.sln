@@ -3,26 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HarveyCV", "..\..\..\VS Projects\WebSites\HarveyCV\", "{5862B077-221D-41ED-8289-6339F334495B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HarveyCV(1)", "HarveyCV\", "{6DD16738-9EF8-4066-BE3F-DFD8303C5D65}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_49217"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\VS Projects\WebSites\HarveyCV\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49217\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56665"
+		Debug.AspNetCompiler.PhysicalPath = "HarveyCV\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56665\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_49217"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\VS Projects\WebSites\HarveyCV\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49217\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56665"
+		Release.AspNetCompiler.PhysicalPath = "HarveyCV\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56665\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "49217"
-		SlnRelativePath = "..\..\..\VS Projects\WebSites\HarveyCV\"
-		DefaultWebSiteLanguage = "Visual C#"
+		VWDPort = "56665"
 	EndProjectSection
 EndProject
 Global
@@ -30,8 +28,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5862B077-221D-41ED-8289-6339F334495B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5862B077-221D-41ED-8289-6339F334495B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD16738-9EF8-4066-BE3F-DFD8303C5D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD16738-9EF8-4066-BE3F-DFD8303C5D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
