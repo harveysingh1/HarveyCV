@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
 
             <a href="Default.aspx" class="navbar-brand">
@@ -76,8 +76,8 @@
             <a href="#" class="sm google-plus" title="Find Harvey on Google+" target="_blank">
                 <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
+            <p>&copy; Harvir Jaswal 2017</p>
         </div>
-        <p>&copy; Harvir Jaswal 2017</p>
     </div>
 
 </body>

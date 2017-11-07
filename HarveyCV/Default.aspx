@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
 
             <a href="Default.aspx" class="navbar-brand">
@@ -63,8 +63,9 @@
         <h1>Welcome</h1>
         <p>Welcome to harvirjaswal.net, the personal page of Harvir Jaswal.</p>
         <p>I am a recent Computer Science graduate who holds a Second-Class (Upper Division) degree in <a href="https://www.brunel.ac.uk/study/undergraduate/computer-science-bsc" target="_blank">Computer Science</a> from <a href="https://www.brunel.ac.uk/" target="_blank">Brunel University London</a>. I am currently working as a Software Quality Assurance Engineer for <a href="https://www.veritas.com/" target="_blank">Veritas</a>.</p>
-        <p>This website details my experience both within university and the industry. I have a range of experience in different languages, from small-scale projects to large <a href="https://www.veritas.com/product/information-governance/enterprise-vault" target="_blank">Enterprise solutions</a>.</p>
+        <p>This website details my experience both within university and the industry. I have a range of experience in different languages, from small-scale projects to large <a href="https://www.veritas.com/product/information-governance/enterprise-vault" target="_blank">Enterprise Solutions</a>.</p>
         <p>An abridged CV is available <a href="#" target="_blank">here</a>, with a full one available on request.</p>
+        <p>Also presented here are some examples of projects I have been involved in, including my development of an <a href="#" target="_blank">Artificial Neural Network</a> for my university's final year project.</p>
         <p>Should you wish to contact me, you can do so either from the <a href="#" target="_blank">contact page</a>, or by sending me a message on <a href="#" target="_blank">LinkedIn</a>.</p>
     </div>
 
@@ -85,8 +86,9 @@
             <a href="#" class="sm google-plus" title="Find Harvey on Google+" target="_blank">
                 <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
+
+            <p>&copy; Harvir Jaswal 2017</p>
         </div>
-        <p>&copy; Harvir Jaswal 2017</p>
     </div>
 </body>
 </html>
