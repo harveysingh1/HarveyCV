@@ -7,9 +7,10 @@
     <title>Harvey's CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/StyleSheet.css" rel="stylesheet" />
 
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
 
     <%-- JavaScript --%>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -29,7 +30,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <div class="collapse navbar-collapse navHeaderCollapse">
+            <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
 
                 <ul class="nav navbar-nav navbar-left">
                     <li class="active"><a href="Default.aspx">Home</a></li>
@@ -63,6 +64,27 @@
         <p>This website details my experience both within university and the industry. I have a range of experience in different languages, from small-scale projects to large <a href="https://www.veritas.com/product/information-governance/enterprise-vault" target="_blank">Enterprise solutions.</a></p>
         <p>An abridged CV is available <a href="#" target="_blank">here</a>, with a full one available on request.</p>
         <p>Should you wish to contact me, you can do so either from the <a href="#" target="_blank">contact page</a>, or by sending me a message on <a href="#" target="_blank">LinkedIn</a></p>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <a href="#" class="sm facebook" title="Find Harvey on Facebook" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+
+            <a href="#" class="sm twitter" title="Find Harvey on Twitter" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+
+            <a href="#" class="sm linkedin" title="Find Harvey on LinkedIn" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+
+            <a href="#" class="sm google-plus" title="Find Harvey on Google+" target="_blank">
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+            </a>
+        </div>
+        <p>&copy; Harvir Jaswal 2017</p>
     </div>
 </body>
 </html>

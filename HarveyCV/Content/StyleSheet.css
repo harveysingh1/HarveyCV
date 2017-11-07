@@ -12,7 +12,16 @@
 
 .navbar {
     margin-bottom: 0;
+    background-color: rgba(248, 248, 248, 0.9);
 }
+
+#navbar a {
+    transition: background-color .5s ease;
+}
+
+    #navbar li.active a, #navbar a:hover {
+        background-color: rgba(206, 206, 206, 0.9);
+    }
 
 .jumbotron {
     background-image: url("/images/jumbo.jpg");
@@ -26,7 +35,7 @@
 }
 
 #header.jumbotron .container {
-    padding-top: 20px;
+    padding-top: 15px;
     font-family: 'source sans pro', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
@@ -35,10 +44,10 @@
     font-weight: bold;
 }
 
-#header.jumbotron h1 span {
-    font-size: 16px;
-    white-space: nowrap;
-}
+    #header.jumbotron h1 span {
+        font-size: 16px;
+        white-space: nowrap;
+    }
 
 #header.jumbotron {
     height: 250px;
@@ -52,8 +61,67 @@
     font-weight: bold;
 }
 
-#content a:hover {
-    text-decoration: none;
-    color: #5496d1;
+    #content a:hover {
+        text-decoration: none;
+        color: #5496d1;
+    }
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*Set the fixed height of the footer here*/
+    height: 85px;
+    background-color: #8CA1D0;
+    padding-top: 10px;
+    text-align: center;
+    background: linear-gradient(#132449,#040D20);
 }
 
+    #footer .container {
+        padding: 5px 0 0 0;
+        font-size: 0;
+    }
+
+    #footer a.sm {
+        font-size: 25px;
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        padding: 3px;
+        margin: 0 5px;
+        opacity: 0.5;
+    }
+
+        #footer a.sm:hover {
+            transition: 0.5s ease;
+            transform: scale(1.3, 1.3); /** default is 1, scale it to 1.5 */
+            opacity: 1;
+        }
+
+        #footer a.sm.facebook:hover {
+            color: #fff;
+            background-color: #3B5998;
+        }
+
+        #footer a.sm.twitter:hover {
+            color: #fff;
+            background-color: #4099ff;
+        }
+
+        #footer a.sm.linkedin:hover {
+            background-color: #0077b5;
+        }
+
+        #footer a.sm.google-plus:hover {
+            background-color: #db5a3c;
+        }
+
+    #footer p {
+        font-size: 12px;
+        padding-top: 5px;
+        color: #fff;
+    }
