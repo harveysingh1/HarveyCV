@@ -37,9 +37,9 @@
                 <ul class="nav navbar-nav navbar-left">
                     <li><a href="Default.aspx">Home</a></li>
                     <li><a href="About.aspx">About Me</a></li>
-                    <li class="active"><a href="CV.aspx">CV</a></li>
+                    <li><a href="CV.aspx">CV</a></li>
                     <li><a href="Degree.aspx">Degree</a></li>
-                    <li><a href="Projects.aspx">Projects</a></li>
+                    <li class="active"><a href="Projects.aspx">Projects</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
@@ -60,6 +60,10 @@
         </div>
     </div>
 
+    <div class="container" id="content">
+        <%-- TODO --%>
+    </div>
+
     <div id="footer">
         <div class="container">
             <a href="#" class="sm facebook" title="Find Harvey on Facebook" target="_blank">
@@ -77,9 +81,9 @@
             <a href="#" class="sm google-plus" title="Find Harvey on Google+" target="_blank">
                 <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
+
             <p>&copy; Harvir Jaswal 2017</p>
         </div>
     </div>
-
 </body>
 </html>

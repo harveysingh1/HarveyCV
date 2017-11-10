@@ -39,6 +39,7 @@
                     <li><a href="About.aspx">About Me</a></li>
                     <li><a href="CV.aspx">CV</a></li>
                     <li><a href="Degree.aspx">Degree</a></li>
+                    <li><a href="Projects.aspx">Projects</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

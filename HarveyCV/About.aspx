@@ -39,6 +39,7 @@
                     <li class="active"><a href="About.aspx">About Me</a></li>
                     <li><a href="CV.aspx">CV</a></li>
                     <li><a href="Degree.aspx">Degree</a></li>
+                    <li><a href="Projects.aspx">Projects</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
@@ -64,7 +65,8 @@
         <p>I am a recent graduate in <a href="https://www.brunel.ac.uk/study/undergraduate/computer-science-bsc" target="_blank">Computer Science</a> from <a href="https://www.brunel.ac.uk/" target="_blank">Brunel University London</a> and am now working as a Software Quality Assurance Engineer for <a href="https://www.veritas.com/" target="_blank">Veritas</a>.</p>
         <p>I achieved a Second Class (Upper Division) BSc with Honours in my degree, with good marks throughout the four year course. The course itself included a one-year work placement at Veritas as a Performance Engineering Intern.</p>
         <p>I had a keen interest in computers and (specifically) programming from a young age. This has enabled me to gain a wide range of skills in both Web and Software development. My skills in the industry are broad but include <a href="https://www.w3.org/" target="_blank">W3C</a> standard compliant HTML and CSS, JavaScript, with backend development in PHP/ASP.NET, and MySQL.</p>
-
+        <p>Prior to working as an SQA Engineer, I worked as a Performance Engineer during my one year placement as part of my university course. In this role I expanded my knowledge of systems environments and modelling load, as well as log file analysis, transaction measurement and test automation.</p>
+        <p>Aside from web development, I also have experience in developing desktop based applications, primarily in Object Oriented Programming languages such as C# and Java. I also have a small amount of experience MATLAB. The main showcase of these languages were my final year projects in which I created a game using Xamarin for Visual Studio, and an Artificial Neural Network within MATLAB. See the <a href="#">Projects</a> page for more information.</p>
     </div>
 
     <div id="footer">
