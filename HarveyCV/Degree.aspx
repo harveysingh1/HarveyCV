@@ -59,6 +59,68 @@
         </div>
     </div>
 
+    <div class="container" id="content">
+        <h1>Harvir's Degree</h1>
+        <p>My degree is in <a href="https://www.brunel.ac.uk/study/undergraduate/computer-science-bsc" target="_blank">Computer Science</a> from <a href="https://www.brunel.ac.uk/" target="_blank">Brunel University London</a>.</p>
+        <p>During the course of the degree, a large number of modules were undertaken and several of these involved substantial coursework projects. Details of the modules taken and their respective projects are presented below.</p>
+
+        <h2>Year 1</h2>
+        <p>Modules</p>
+        <ul>
+            <li>Level 1 Group Project</li>
+            <li>Software Design</li>
+            <li>Software Implementation</li>
+            <li>Fundamental Programming Assessment</li>
+            <li>Data and Information</li>
+            <li>Introductory Programming</li>
+            <li>Logic and Computation</li>
+        </ul>
+
+        <p>Coursework and Projects</p>
+        <ul>
+            <li>Various Java programming projects to build foundational knowledge</li>
+            <li>A project conducted to extract Twitter analytical data in order to perform data analysis upon, primarily using SQL commands</li>
+            <li>A group project conducted to control and manoeuvre a <a href="https://www.finchrobot.com/">Finch Robot</a> to showcase our programming knowledge. The Finch was required to take in various commands (in the format of a Stack) and execute those commands that were given in a LIFO order. The project was coordinated with 4 other students and required a demonstration in front of the module leaders.</li>
+        </ul>
+
+        <h2>Year 2</h2>
+        <p>Modules</p>
+        <ul>
+            <li>Level 2 Group Project</li>
+            <li>Software Development and Management</li>
+            <li>Usability Engineering</li>
+            <li>Algorithms and their Applications</li>
+            <li>Networks and Operating Systems</li>
+        </ul>
+
+        <p>Coursework and Projects</p>
+        <ul>
+            <li>Various coding projects in Java utilising a wide range of key programming areas such as IO, Threading, Parsing, Database Interaction and SQL, Java servlets and sockets</li>
+            <li>UML modelling and software development methodologies</li>
+            <li>Level 2 group project developing an Android mobile application of our choice. Our project was <b><i>CrazySpoon</i></b>, an app that allowed users to find and order food from restaurants within their local area.</li>
+            <li>A usability evaluation of the app created during the Level 2 group project. The report showcased the reasons and background behind the UI and UX decided upon using relevant usability evalution methods, and relevant usability engineering concerns. The coursework was presented in front of the module leaders.</li>
+        </ul>
+
+        <h2>Year 3</h2>
+        <p>Modules</p>
+        <ul>
+            <li>Final Year Project</li>
+            <li>Advanced Topics in Computer Science</li>
+            <li>Software Project Management</li>
+            <li>Network Computing</li>
+            <li>Digital Media and Games</li>
+        </ul>
+
+        <p>Coursework and Projects</p>
+        <ul>
+            <li>A year-long development project to create and train an <a href="#">Artificial Neural Network</a> (ANN) for the purpose of detecting network intrusions using packet analysis. The ANN was trained to detect ~87% of intrusions using a test set.</li>
+            <li>A project to develop a game using the <a href="#">MonoGame development environment</a>. The game prototype was a "shoot-em-up" based in space and had two levels of incremental difficulty, with the third and final level being a "boss" battle.</li>
+            <li>A project to develop a banking system, implemented using multithreading and parallelism. The project was written in C# and was very well received.</li>
+        </ul>
+
+
+    </div>
+
     <div id="footer">
         <div class="container">
             <a href="#" class="sm facebook" title="Find Harvey on Facebook" target="_blank">
