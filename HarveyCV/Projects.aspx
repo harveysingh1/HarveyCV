@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
+<%-- Head --%>
+
 <head runat="server">
     <title>Harvey's CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,8 +20,11 @@
     <script src="Scripts/bootstrap.js"></script>
 
 </head>
+
+<%-- Body --%>
 <body>
 
+    <%-- Navbar --%>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
 
@@ -48,20 +54,57 @@
 
             </div>
         </div>
-  
+
     </nav>
 
+    <%-- Jumbotron --%>
     <div class="jumbotron" id="header">
         <div class="container">
             <h1>Harvir Jaswal <span class="hidden-xs">BSc (Hons)</span></h1>
-            <p>Aspiring Software Developer<br />
-               Computer Science Graduate<span class="hidden-xs">, Upper Second Class</span>
+            <p>
+                Aspiring Software Developer<br />
+                Computer Science Graduate<span class="hidden-xs">, Upper Second Class</span>
             </p>
         </div>
     </div>
 
+    <%-- Content --%>
     <div class="container" id="content">
-        <%-- TODO --%>
+        <h1>List Of Projects</h1>
+        <p>A list of projects I have worked upon are listed in the tabs below.</p>
+
+        <%-- Accordion --%>
+        <div class="panel-group" id="projectsAccordion">
+
+            <%-- ANN Start --%>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-target="#panel1" data-toggle="collapse">Artifical Neural Network</h3>
+                </div>
+                <div class="panel-collapse collapse" id="panel1">
+                    <div class="panel-body">
+                        <p>Hello hoe</p>
+                    </div>
+                </div>
+            </div>
+            <%-- ANN End --%>
+
+            <%-- GalaxyRaider Start --%>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-target="#panel2" data-toggle="collapse">Shoot-Em-Up Game</h3>
+                </div>
+                <div class="panel-collapse collapse" id="panel2">
+                    <div class="panel-body">
+                        <p>
+                            Hi
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
     <div id="footer">
