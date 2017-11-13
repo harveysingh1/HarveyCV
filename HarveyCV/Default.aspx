@@ -9,13 +9,7 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/StyleSheet.css" rel="stylesheet" />
-
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
-
-    <%-- JavaScript --%>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
-    <script src="Scripts/scrollreveal.min.js"></script>
 
 </head>
 <body>
@@ -88,9 +82,18 @@
                 <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
 
+            <a href="#" class="sm github" title="Find Harvey on Github" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+
             <p>&copy; Harvir Jaswal 2017</p>
         </div>
     </div>
+
+    <%-- JavaScript --%>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/scrollreveal.min.js"></script>
 
     <script>
         window.sr = ScrollReveal();
@@ -110,11 +113,6 @@
             origin: 'left',
             distance: '50vh'
         });
-
-        sr.reveal('#footer a.sm', {
-            duration: 1000,
-            origin: 'bottom'
-        })
     </script>
 
 </body>

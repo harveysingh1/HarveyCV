@@ -125,6 +125,10 @@
                 <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
 
+            <a href="#" class="sm github" title="Find Harvey on Github" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+
             <p>&copy; Harvir Jaswal 2017</p>
         </div>
     </div>
