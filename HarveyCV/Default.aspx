@@ -15,10 +15,10 @@
     <%-- JavaScript --%>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/scrollreveal.min.js"></script>
 
 </head>
 <body>
-
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
 
@@ -35,7 +35,7 @@
             <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="Default.aspx">Home</a></li>
+                    <li class="active"><a href="#">Home</a></li>
                     <li><a href="About.aspx">About Me</a></li>
                     <li><a href="CV.aspx">CV</a></li>
                     <li><a href="Degree.aspx">Degree</a></li>
@@ -48,14 +48,14 @@
 
             </div>
         </div>
-  
     </nav>
 
     <div class="jumbotron" id="header">
         <div class="container">
             <h1>Harvir Jaswal <span class="hidden-xs">BSc (Hons)</span></h1>
-            <p>Aspiring Software Developer<br />
-               Computer Science Graduate<span class="hidden-xs">, Upper Second Class</span>
+            <p>
+                Aspiring Software Developer<br />
+                Computer Science Graduate<span class="hidden-xs">, Upper Second Class</span>
             </p>
         </div>
     </div>
@@ -91,5 +91,31 @@
             <p>&copy; Harvir Jaswal 2017</p>
         </div>
     </div>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.jumbotron .container', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+
+        sr.reveal('.navbar div li', {
+            duration: 1500,
+            origin: 'top',
+            distance: '50vh'
+        });
+
+        sr.reveal('#content', {
+            duration: 1500,
+            origin: 'left',
+            distance: '50vh'
+        });
+
+        sr.reveal('#footer a.sm', {
+            duration: 1000,
+            origin: 'bottom'
+        })
+    </script>
+
 </body>
 </html>
