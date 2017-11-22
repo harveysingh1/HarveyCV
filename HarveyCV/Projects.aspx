@@ -9,15 +9,12 @@
 <head runat="server">
     <title>Harvey's CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <%-- Stylesheets --%>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="Content/StyleSheet.css" rel="stylesheet" />
-
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
-
-    <%-- JavaScript --%>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+    <link href="Content/StyleSheet.css" rel="stylesheet" />
 
 </head>
 
@@ -73,38 +70,55 @@
         <h1>List Of Projects</h1>
         <p>A list of projects I have worked upon are listed in the tabs below.</p>
 
-        <%-- Accordion --%>
-        <div class="panel-group" id="projectsAccordion">
-
-            <%-- ANN Start --%>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-target="#panel1" data-toggle="collapse">Artifical Neural Network</h3>
-                </div>
-                <div class="panel-collapse collapse" id="panel1">
-                    <div class="panel-body">
-                        <p>Hello hoe</p>
-                    </div>
+        <%-- Tilt Container --%>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
+                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
+                    <div class="imageText">Kill Bill</div>
                 </div>
             </div>
-            <%-- ANN End --%>
 
-            <%-- GalaxyRaider Start --%>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-target="#panel2" data-toggle="collapse">Shoot-Em-Up Game</h3>
+            <div class="col-sm-4">
+                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
+                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
+                    <div class="imageText">Kill Bill</div>
                 </div>
-                <div class="panel-collapse collapse" id="panel2">
-                    <div class="panel-body">
-                        <p>
-                            Hi
-                        </p>
-                    </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
+                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
+                    <div class="imageText">Kill Bill</div>
                 </div>
             </div>
 
         </div>
 
+        <div class="row">
+
+            <div class="col-sm-4">
+                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
+                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
+                    <div class="imageText">Kill Bill</div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
+                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
+                    <div class="imageText">Kill Bill</div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
+                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
+                    <div class="imageText">Kill Bill</div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <div id="footer">
@@ -132,5 +146,14 @@
             <p>&copy; Harvir Jaswal 2017</p>
         </div>
     </div>
+
+    <%-- JavaScript --%>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="Scripts/scripts.js"></script>
+
+
+
 </body>
 </html>

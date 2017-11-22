@@ -78,7 +78,7 @@
             <ul>
                 <li>Various Java programming projects to build foundational knowledge</li>
                 <li>A project conducted to extract Twitter analytical data in order to perform data analysis upon, primarily using SQL commands</li>
-                <li>A group project conducted to control and manoeuvre a <a href="https://www.finchrobot.com/">Finch Robot</a> to showcase our programming knowledge. The Finch was required to take in various commands (in the format of a Stack) and execute those commands that were given in a LIFO order. The project was coordinated with 4 other students and required a demonstration in front of the module leaders.</li>
+                <li>A group project conducted to control and manoeuvre a <a href="https://www.finchrobot.com/" target="_blank">Finch Robot</a> to showcase our programming knowledge. The Finch was required to take in various commands (in the format of a Stack) and execute those commands that were given in a LIFO order. The project was coordinated with 4 other students and required a demonstration in front of the module leaders.</li>
             </ul>
         </div>
 
@@ -120,7 +120,6 @@
                 <li>A project to develop a banking system, implemented using multithreading and parallelism. The project was written in C# and was very well received.</li>
             </ul>
         </div>
-
     </div>
 
     <div id="footer">
