@@ -68,68 +68,82 @@
 
     <%-- Content --%>
     <div class="container" id="content">
-        <h1>List Of Projects</h1>
+        <h1>List of Projects</h1>
         <p>A list of projects I have worked upon are listed in the tabs below.</p>
-
-        <%-- Row 1 start --%>
-        <%--<div class="row" id="row1">
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-        </div>--%>
-        <%-- Row 1 End --%>
-
-        <%-- Row 2 Start --%>
-        <div class="grid">
-            <figure class="effect-layla">
-                <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" />
-                <figcaption>
-                    <h2>Kill <span>Bill</span></h2>
-                    <p>She wants to kill bill</p>
-                    <a href="#">View more</a>
-                </figcaption>
-            </figure>
-        </div>
-        <%-- Row 2 End --%>
-
     </div>
 
+    <%-- Projects list --%>
+    <div class="projectContainer">
+        <div class="grid">
 
+            <%-- Row 1 start --%>
+            <div class="row">
+
+                <%-- Neural Network --%>
+                <div class="col-xs">
+                    <figure class="effect-layla">
+                        <img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAloAAAAJDk2NzcwMGUyLTk2MDYtNGMyNi1iMzAxLTY3NjEyMjlhOTE4OA.jpg" />
+                        <figcaption>
+                            <h2>Artificial <span>Neural Network</span></h2>
+                            <p>Designed to detect network intrustions</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <%-- Games project --%>
+                <div class="col-xs">
+                    <figure class="effect-layla">
+                        <img src="https://opengameart.org/sites/default/files/sample_17.png" />
+                        <figcaption>
+                            <h2>Galaxy <span>Raider</span></h2>
+                            <p>University Games Design Project</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <%-- Brunel Bank --%>
+                <div class="col-xs">
+                    <figure class="effect-layla">
+                        <img src="https://cdn.wccftech.com/wp-content/uploads/2017/02/Ryzen-7.jpg" />
+                        <figcaption>
+                            <h2>Brunel <span>Bank</span></h2>
+                            <p>CMD Banking system using multithreading</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <%-- Row 1 End --%>
+    </div>
+
+    <%-- Footer Start --%>
     <div id="footer">
         <div class="container">
+
+            <%-- Facebook --%>
             <a href="#" class="sm facebook" title="Find Harvey on Facebook" target="_blank">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
 
+            <%-- Twitter --%>
             <a href="#" class="sm twitter" title="Find Harvey on Twitter" target="_blank">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
 
+            <%-- LinkedIn --%>
             <a href="https://www.linkedin.com/in/harvirjaswal/" class="sm linkedin" title="Find Harvey on LinkedIn" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
 
+            <%-- Google Plus --%>
             <a href="#" class="sm google-plus" title="Find Harvey on Google+" target="_blank">
                 <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
 
+            <%-- Github --%>
             <a href="#" class="sm github" title="Find Harvey on Github" target="_blank">
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
@@ -161,8 +175,6 @@
         });
 
     </script>
-
-
 
 </body>
 </html>

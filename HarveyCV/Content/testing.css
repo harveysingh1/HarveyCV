@@ -1,4 +1,15 @@
-﻿.grid {
+﻿@media (min-width: 1200px) {
+    .projectContainer {
+        width: 1000px;
+    }
+}
+
+.projectContainer {
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.grid {
     position: relative;
     margin: 0 auto;
     padding: 1em 0 4em;
@@ -13,8 +24,8 @@
         overflow: hidden;
         margin: 10px 1%;
         min-width: 320px;
-        max-width: 480px;
-        max-height: 360px;
+        max-width: 320px;
+        max-height: 320px;
         width: 48%;
         background: #3085a3;
         text-align: center;
@@ -136,6 +147,7 @@ figure.effect-layla {
         opacity: 0;
         -webkit-transform: translate3d(0, -10px, 0);
         transform: translate3d(0, -10px, 0);
+        text-transform: uppercase;
     }
 
     figure.effect-layla img,
