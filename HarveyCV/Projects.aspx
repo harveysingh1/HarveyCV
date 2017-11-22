@@ -70,56 +70,59 @@
         <h1>List Of Projects</h1>
         <p>A list of projects I have worked upon are listed in the tabs below.</p>
 
-        <%-- Tilt Container --%>
-        <div class="row">
-            <div class="col-sm-4">
+        <%-- Row 1 start --%>
+        <div class="row" id="row1">
+            <div class="col-xs-4">
                 <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
                     <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
                     <div class="imageText">Kill Bill</div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-xs-4">
                 <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
                     <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
                     <div class="imageText">Kill Bill</div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-xs-4">
                 <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
                     <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
                     <div class="imageText">Kill Bill</div>
                 </div>
             </div>
-
         </div>
+        <%-- Row 1 End --%>
 
-        <div class="row">
+        <%-- Row 2 Start --%>
+        <div class="row" id="row2">
 
-            <div class="col-sm-4">
+            <div class="col-xs-4">
                 <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
                     <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
                     <div class="imageText">Kill Bill</div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-xs-4">
                 <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
                     <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
                     <div class="imageText">Kill Bill</div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-xs-4">
                 <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
                     <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
                     <div class="imageText">Kill Bill</div>
                 </div>
             </div>
-
         </div>
+        <%-- Row 2 End --%>
+
     </div>
+
 
     <div id="footer">
         <div class="container">
@@ -152,6 +155,25 @@
     <script src="Scripts/bootstrap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
     <script src="Scripts/scripts.js"></script>
+    <script src="Scripts/scrollreveal.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('#row1', {
+            duration: 1500,
+            distance: '1vh',
+            mobile: false,
+            duration: 2000
+        });
+
+        sr.reveal('#row2', {
+            duration: 1500,
+            distance: '1vh',
+            mobile: false,
+            duration: 2000
+        });
+
+    </script>
 
 
 
