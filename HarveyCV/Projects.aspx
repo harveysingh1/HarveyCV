@@ -15,6 +15,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
     <link href="Content/StyleSheet.css" rel="stylesheet" />
+    <link href="Content/testing.css" rel="stylesheet" />
 
 </head>
 
@@ -71,7 +72,7 @@
         <p>A list of projects I have worked upon are listed in the tabs below.</p>
 
         <%-- Row 1 start --%>
-        <div class="row" id="row1">
+        <%--<div class="row" id="row1">
             <div class="col-xs-4">
                 <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
                     <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
@@ -92,32 +93,19 @@
                     <div class="imageText">Kill Bill</div>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <%-- Row 1 End --%>
 
         <%-- Row 2 Start --%>
-        <div class="row" id="row2">
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
+        <div class="grid">
+            <figure class="effect-layla">
+                <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" />
+                <figcaption>
+                    <h2>Kill <span>Bill</span></h2>
+                    <p>She wants to kill bill</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
         </div>
         <%-- Row 2 End --%>
 
@@ -153,7 +141,6 @@
     <%-- JavaScript --%>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
     <script src="Scripts/scripts.js"></script>
     <script src="Scripts/scrollreveal.min.js"></script>
 
