@@ -19,7 +19,7 @@
         <div class="container">
 
             <a href="Default.aspx" class="navbar-brand">
-                <img src="Images/Hs-logo.png" width="38" height="37" />
+                <img src="Images/Hs-logo-comp.png" width="38" height="37" />
             </a>
 
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">

@@ -29,6 +29,7 @@ body {
 
     #navbar li.active a, #navbar a:hover {
         background-color: #2d3e63;
+        color: #fff;
     }
 
 #navbar li a {
@@ -84,8 +85,13 @@ body {
     margin-bottom: 40px;
 }
 
-.imageContainer {
+.imageContainer img{
     position: relative;
+    opacity: 0.7;
+}
+
+.imageContainer img:hover{
+    opacity: 1;
 }
 
 .imageText {
