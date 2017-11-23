@@ -69,22 +69,21 @@
     <%-- Content --%>
     <div class="container" id="content">
         <h1>List of Projects</h1>
-        <p>A list of projects I have worked upon are listed in the tabs below.</p>
+        <p>A list of projects I have worked on are listed in the tabs below.</p>
     </div>
 
     <%-- Projects list --%>
-    <div class="projectContainer">
-        <div class="grid">
+    <div class="container">
 
+        <div class="grid">
             <%-- Row 1 start --%>
             <div class="row">
-
                 <%-- Neural Network --%>
-                <div class="col-xs">
+                <div class="col-md-4">
                     <figure class="effect-layla">
-                        <img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAloAAAAJDk2NzcwMGUyLTk2MDYtNGMyNi1iMzAxLTY3NjEyMjlhOTE4OA.jpg" />
+                        <img src="Images/ann.png" />
                         <figcaption>
-                            <h2>Artificial <span>Neural Network</span></h2>
+                            <h2>Neural<span> Network</span></h2>
                             <p>Designed to detect network intrustions</p>
                             <a href="#">View more</a>
                         </figcaption>
@@ -92,9 +91,10 @@
                 </div>
 
                 <%-- Games project --%>
-                <div class="col-xs">
+                <div class="col-md-4">
                     <figure class="effect-layla">
-                        <img src="https://opengameart.org/sites/default/files/sample_17.png" />
+                        <%--<img src="https://cdn.pixabay.com/photo/2016/04/14/13/06/landscape-1328858_960_720.jpg" />--%>
+                        <img src="Images/spaceship.png" />
                         <figcaption>
                             <h2>Galaxy <span>Raider</span></h2>
                             <p>University Games Design Project</p>
@@ -104,9 +104,10 @@
                 </div>
 
                 <%-- Brunel Bank --%>
-                <div class="col-xs">
+                <div class="col-md-4">
                     <figure class="effect-layla">
-                        <img src="https://cdn.wccftech.com/wp-content/uploads/2017/02/Ryzen-7.jpg" />
+                        <%--<img src="https://cdn.wccftech.com/wp-content/uploads/2017/02/Ryzen-7.jpg" />--%>
+                        <img src="Images/cpu.jpg" />
                         <figcaption>
                             <h2>Brunel <span>Bank</span></h2>
                             <p>CMD Banking system using multithreading</p>
@@ -115,8 +116,8 @@
                     </figure>
                 </div>
             </div>
+            <%-- Row 1 End --%>
         </div>
-        <%-- Row 1 End --%>
     </div>
 
     <%-- Footer Start --%>
@@ -155,26 +156,7 @@
     <%-- JavaScript --%>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
-    <script src="Scripts/scripts.js"></script>
     <script src="Scripts/scrollreveal.min.js"></script>
-
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('#row1', {
-            duration: 1500,
-            distance: '1vh',
-            mobile: false,
-            duration: 2000
-        });
-
-        sr.reveal('#row2', {
-            duration: 1500,
-            distance: '1vh',
-            mobile: false,
-            duration: 2000
-        });
-
-    </script>
 
 </body>
 </html>

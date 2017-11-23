@@ -1,33 +1,22 @@
-﻿@media (min-width: 1200px) {
-    .projectContainer {
-        width: 1000px;
-    }
-}
-
-.projectContainer {
-    margin-left: auto;
-    margin-right:auto;
-}
-
-.grid {
+﻿.grid {
     position: relative;
     margin: 0 auto;
     padding: 1em 0 4em;
-    max-width: 1000px;
+    max-width: 1200px;
     list-style: none;
     text-align: center;
 }
 
     .grid figure {
         position: relative;
-        float: left;
         overflow: hidden;
-        margin: 10px 1%;
+        float: left;
         min-width: 320px;
         max-width: 320px;
         max-height: 320px;
+        margin: 0 1em 1em 1em;
         width: 48%;
-        background: #3085a3;
+        background: #133f49;
         text-align: center;
         cursor: pointer;
     }
@@ -37,16 +26,17 @@
             display: block;
             min-height: 100%;
             max-width: 100%;
-            opacity: 0.8;
+            opacity: 0.65;
         }
 
         .grid figure figcaption {
             padding: 2em;
             color: #fff;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
             text-transform: uppercase;
             font-size: 1.25em;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden; /*Don't really need these styles*/
+            backface-visibility: hidden; /*Don't really need these styles*/
         }
 
             .grid figure figcaption::before,
@@ -64,7 +54,7 @@
             }
 
                 .grid figure figcaption > a {
-                    z-index: 1000;
+                    z-index: -1000;
                     text-indent: 200%;
                     white-space: nowrap;
                     font-size: 0;
@@ -87,11 +77,11 @@
 
         .grid figure p {
             letter-spacing: 1px;
-            font-size: 68.5%;
+            font-size: 58.5%;
         }
 
 figure.effect-layla {
-    background: #18a367;
+    background: #133f49;
 }
 
     figure.effect-layla img {
@@ -117,9 +107,8 @@ figure.effect-layla {
             border-top: 1px solid #fff;
             border-bottom: 1px solid #fff;
             -webkit-transform: scale(0, 1);
-            transform: scale(0, 1);
-            -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
+            transform: scale(0, 1); /*-webkit-transform-origin: 0 0;
+            transform-origin: 0 0;*/
         }
 
         figure.effect-layla figcaption::after {
@@ -130,13 +119,11 @@ figure.effect-layla {
             border-right: 1px solid #fff;
             border-left: 1px solid #fff;
             -webkit-transform: scale(1, 0);
-            transform: scale(1, 0);
-            -webkit-transform-origin: 100% 0;
-            transform-origin: 100% 0;
+            transform: scale(1, 0); /*-webkit-transform-origin: 100% 0;*/ /*transform-origin: 100% 0;*/
         }
 
     figure.effect-layla h2 {
-        padding-top: 26%;
+        padding-top: 22%;
         -webkit-transition: -webkit-transform 0.35s;
         transition: transform 0.35s;
     }
@@ -165,7 +152,7 @@ figure.effect-layla {
     }
 
     figure.effect-layla:hover img {
-        opacity: 0.7;
+        opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
@@ -177,17 +164,18 @@ figure.effect-layla {
         transform: scale(1);
     }
 
-    figure.effect-layla:hover h2,
+    /*figure.effect-layla:hover h2,*/
     figure.effect-layla:hover p {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
 
-    figure.effect-layla:hover figcaption::after,
+
+/*figure.effect-layla:hover figcaption::after,
     figure.effect-layla:hover h2,
     figure.effect-layla:hover p,
     figure.effect-layla:hover img {
         -webkit-transition-delay: 0.15s;
         transition-delay: 0.15s;
-    }
+    }*/
