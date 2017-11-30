@@ -151,30 +151,6 @@
     <%-- JavaScript --%>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
-    <script src="Scripts/scrollreveal.min.js"></script>
-
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('#content #year1', {
-            duration: 1500,
-            origin: 'right',
-            distance: '50vh'
-        });
-
-        sr.reveal('#content #year2', {
-            duration: 1500,
-            delay: 700,
-            origin: 'left',
-            distance: '50vh'
-        });
-
-        sr.reveal('#content #year3', {
-            duration: 1000,
-            origin: 'right',
-            distance: '50vh',
-            viewfactor: 0.5
-        });
-    </script>
 
 </body>
 </html>

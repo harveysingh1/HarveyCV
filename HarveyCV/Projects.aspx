@@ -15,6 +15,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
     <link href="Content/StyleSheet.css" rel="stylesheet" />
+    <link href="Content/testing.css" rel="stylesheet" />
 
 </head>
 
@@ -67,81 +68,83 @@
 
     <%-- Content --%>
     <div class="container" id="content">
-        <h1>List Of Projects</h1>
-        <p>A list of projects I have worked upon are listed in the tabs below.</p>
-
-        <%-- Row 1 start --%>
-        <div class="row" id="row1">
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-        </div>
-        <%-- Row 1 End --%>
-
-        <%-- Row 2 Start --%>
-        <div class="row" id="row2">
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-
-            <div class="col-xs-4">
-                <div class="imageContainer" data-tilt style="transform-style: preserve-3d;">
-                    <img src="https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e" class="img-responsive" />
-                    <div class="imageText">Kill Bill</div>
-                </div>
-            </div>
-        </div>
-        <%-- Row 2 End --%>
-
+        <h1>List of Projects</h1>
+        <p>A list of projects I have worked on are listed in the tabs below.</p>
     </div>
 
+    <%-- Projects list --%>
+    <div class="container">
 
+        <div class="grid">
+            <%-- Row 1 start --%>
+            <div class="row">
+                <%-- Neural Network --%>
+                <div class="col-md-4">
+                    <figure class="effect-layla">
+                        <img src="Images/ann.png" />
+                        <figcaption>
+                            <h2>Neural<span> Network</span></h2>
+                            <p>Designed to detect network intrustions</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <%-- Games project --%>
+                <div class="col-md-4">
+                    <figure class="effect-layla">
+                        <%--<img src="https://cdn.pixabay.com/photo/2016/04/14/13/06/landscape-1328858_960_720.jpg" />--%>
+                        <img src="Images/spaceship.png" />
+                        <figcaption>
+                            <h2>Galaxy <span>Raider</span></h2>
+                            <p>University Games Design Project</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <%-- Brunel Bank --%>
+                <div class="col-md-4">
+                    <figure class="effect-layla">
+                        <%--<img src="https://cdn.wccftech.com/wp-content/uploads/2017/02/Ryzen-7.jpg" />--%>
+                        <img src="Images/cpu.jpg" />
+                        <figcaption>
+                            <h2>Brunel <span>Bank</span></h2>
+                            <p>CMD Banking system using multithreading</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <%-- Row 1 End --%>
+        </div>
+    </div>
+
+    <%-- Footer Start --%>
     <div id="footer">
         <div class="container">
+
+            <%-- Facebook --%>
             <a href="#" class="sm facebook" title="Find Harvey on Facebook" target="_blank">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
 
+            <%-- Twitter --%>
             <a href="#" class="sm twitter" title="Find Harvey on Twitter" target="_blank">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
 
+            <%-- LinkedIn --%>
             <a href="https://www.linkedin.com/in/harvirjaswal/" class="sm linkedin" title="Find Harvey on LinkedIn" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
 
+            <%-- Google Plus --%>
             <a href="#" class="sm google-plus" title="Find Harvey on Google+" target="_blank">
                 <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
 
+            <%-- Github --%>
             <a href="#" class="sm github" title="Find Harvey on Github" target="_blank">
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
@@ -153,29 +156,7 @@
     <%-- JavaScript --%>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-    <script src="Scripts/scripts.js"></script>
     <script src="Scripts/scrollreveal.min.js"></script>
-
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('#row1', {
-            duration: 1500,
-            distance: '1vh',
-            mobile: false,
-            duration: 2000
-        });
-
-        sr.reveal('#row2', {
-            duration: 1500,
-            distance: '1vh',
-            mobile: false,
-            duration: 2000
-        });
-
-    </script>
-
-
 
 </body>
 </html>
